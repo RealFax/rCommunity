@@ -1,0 +1,92 @@
+{
+    "packageVersion": "0.0.1",
+    "language": "English",
+    "Complete": "100%",
+    "API": {
+
+    },
+    "Text": {
+        "Status": {
+            "NotFound": {
+                "title": "See what i found!(。・ω・。)",
+                "message": "There is really nothing here",
+                "messageAlert": "Really!Really!Really...nothing"
+            },
+            "TimeOut": {
+                "guess": "It seems timed out, try to refresh the page§(*￣▽￣*)§"
+            },
+            "Loading": {
+                "title": "Loading"
+            }
+        },
+        "Public": {
+            "NoNeedToModifyLanguage": "No need to modify language",
+            "SwitchLanguageDone": "The language is successfully switched, the current language: ",
+            "Close": "Quit",
+            "BackHome": "Back to homepage"
+        },
+        "Cookie": {
+            "title": "Your Cookies preferences",
+            "subtitle": "Welcome to RealFax Community",
+            "explain": "We hope to use analytical cookies and similar technologies ('Cookies') to improve our website. The information collected by cookies will not personally identify you. For more information about the types of cookies we use and your preferences (including how to change your preferences), please see here",
+            "subExplain": "Cookies policy",
+            "Disagree": "Disagree",
+            "Agree": "Agree",
+            "AgreeCookieSet": "You have accepted our Cookie policy"
+        },
+        "Menu": {
+            "Home": "Home",
+            "EULA": "EULA",
+            "Search": "Search",
+            "User": "Account",
+            "Setting": "Account setting",
+            "Exit": "Logout",
+            "Author": "Creation",
+            "Manage": "Creation Management"
+        },
+        "Home": {
+            "title": "RealFax Community",
+            "Subtitle": "Make the world a better place",
+            "JoinRealFaxCommunity": "Quick start"
+        },
+        "About": {
+            "title": "About RealFax Community"
+        },
+        "EULA": {
+            "title": "RealFax Community EULA"
+        },
+        "Register": {
+            "title": "Register for a RealFax Community account"
+        },
+        "Login": {
+            "title": "进入RealFax Community"
+        },
+        "Verify": {
+            "title": "Confirm your RealFax Community eligibility"
+        },
+        "Search": {
+            "title": "Can i help you?"
+        },
+        "Read": {
+            "title": "Loading(*≧︶≦))(￣▽￣* )ゞ"
+        },
+        "User": {
+            "title": "Take a look, what is this",
+            "Setting": {
+                "title": "Modify your information"
+            },
+            "Exit": {
+                "title": "Do you really want to quit RealFax Community (*/ω＼*)"
+            }
+        },
+        "Author": {
+            "title": "Who is a great writer(○｀ 3′○)",
+            "Editor": {
+                "title": "Really want to tell the secret between us§(*￣▽￣*)§"
+            },
+            "Manage": {
+                "title": "This is the little secret between us(/▽＼)"
+            }
+        }
+    }
+}

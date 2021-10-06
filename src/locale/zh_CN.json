@@ -1,0 +1,109 @@
+{
+    "packageVersion": "0.0.1",
+    "language": "简体中文",
+    "Complete": "100%",
+    "API": {
+
+    },
+    "Text": {
+        "Status": {
+            "NotFound": {
+                "title": "看看我发现了什么!(。・ω・。)",
+                "message": "这里真的什么都没有哦",
+                "messageAlert": "真的!真的!真的...什么都没有"
+            },
+            "TimeOut": {
+                "guess": "似乎超时了,尝试刷新网页§(*￣▽￣*)§"
+            },
+            "Loading": {
+                "title": "加载中"
+            }
+        },
+        "Public": {
+            "NoNeedToModifyLanguage": "无需修改语言",
+            "SwitchLanguageDone": "切换语言成功,当前语言: ",
+            "Close": "退出",
+            "BackHome": "回到主页",
+            "Next": "下一步",
+            "Alert": "警告"
+        },
+        "Cookie": {
+            "title": "您的Cookies偏好",
+            "subtitle": "欢迎来到RealFax Community",
+            "explain": "我们希望使用分析型Cookies和类似技术 (“Cookies”) 来改善我们的网站。 Cookies收集的信息不会识别您个人。有关我们使用的Cookies的类型以及您的偏好选项（包括如何更改您的偏好设置）的更多信息，请查看此处的",
+            "subExplain": "Cookies政策",
+            "Disagree": "不同意",
+            "Agree": "同意",
+            "AgreeCookieSet": "你接受了我们的Cookie设置"
+        },
+        "Menu": {
+            "Home": "主页",
+            "EULA": "用户协议",
+            "Search": "搜索",
+            "User": "账户信息",
+            "Setting": "账户设置",
+            "Exit": "注销登录",
+            "Author": "创作",
+            "Manage": "创作管理"
+        },
+        "Home": {
+            "title": "RealFax Community",
+            "Subtitle": "让世界更加美好",
+            "JoinRealFaxCommunity": "快速开始"
+        },
+        "About": {
+            "title": "关于RealFax Community"
+        },
+        "EULA": {
+            "title": "RealFax Community最终用户协议"
+        },
+        "Register": {
+            "title": "注册一个RealFax Community账户"
+        },
+        "Login": {
+            "title": "加入RealFax Community",
+            "Login": "登录",
+            "LoginTitle": "登录",
+            "LoginLableOption": "使用用户名或邮箱登录",
+            "LoginLableOption_1": "输入密码",
+            "NoneAccount_1": "没有账户?创建一个",
+            "NoneAccount_2": "RealFax",
+            "NoneAccount_3": "账户",
+            "ForgetPassword_1": "忘记密码?立即",
+            "ForgetPassword_2": "重置",
+            "alert_1": "请填写用户名/邮箱",
+            "alert_2": "用户名/邮箱长度异常",
+            "alert_3": "请填写密码",
+            "alert_4": "密码长度异常",
+            "NeedCaptcha": "确认你不是自动程序",
+            "StopLogin": "停止继续登录"
+        },
+        "Verify": {
+            "title": "确认你的RealFax Community资格"
+        },
+        "Search": {
+            "title": "有什么能帮你的吗"
+        },
+        "Read": {
+            "title": "加载中(*≧︶≦))(￣▽￣* )ゞ"
+        },
+        "User": {
+            "title": "看看这是什么",
+            "Setting": {
+                "title": "修改你的信息"
+            },
+            "Exit": {
+                "title": "真的要退出RealFax Community吗(*/ω＼*)"
+            }
+        },
+        "Author": {
+            "title": "谁是大作家(○｀ 3′○)",
+            "Editor": {
+                "title": "真的要说出我们之间的秘密嘛§(*￣▽￣*)§"
+            },
+            "Manage": {
+                "title": "这是我们之间的小秘密哦(/▽＼)"
+            }
+        }
+    }
+}
