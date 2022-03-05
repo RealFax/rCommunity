@@ -10,7 +10,7 @@
                     v-for="(topics, index) in topic" :key="index"
                 >
                     <v-hover v-slot="{ hover }">
-                        <v-card style="width: 50vw; margin-top: 15px;" :flat="!hover" class="cards">
+                        <v-card :to="`/topic/` + topics.topic.Id" style="width: 50vw; margin-top: 15px;" :flat="!hover" class="cards">
                             <!--背景图-->
                             <v-img :src="topics.topic.background" style="height: 10vw">
                                 <v-row justify="end" style="color: white; margin-top: 10px; padding-right: 30px;">

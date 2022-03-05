@@ -117,34 +117,60 @@
                         <v-img :src="'https://q1.qlogo.cn/g?b=qq&nk=' + avatarId + '&s=640'"></v-img>
                     </v-avatar>
 
-<!--                        <v-col cols="12" md="2" sm="2">-->
-<!--                            <v-btn icon large :color="user.isLiked ? 'primary' : ''">-->
-<!--                                <v-icon>-->
-<!--                                    {{ user.isLiked ? 'thumb_up' : 'thumb_up_off_alt' }}-->
-<!--                                </v-icon>-->
-<!--                            </v-btn>-->
-<!--                        </v-col>-->
-
-<!--                        <v-col cols="12" md="2" sm="2">-->
-<!--                            <v-btn icon large :color="user.isFollow ? 'pink darken-1' : ''">-->
-<!--                                <v-icon>-->
-<!--                                    {{ user.isFollow ? 'favorite' : 'favorite_border' }}-->
-<!--                                </v-icon>-->
-<!--                            </v-btn>-->
-<!--                        </v-col>-->
-
-<!--                        <v-col cols="12" md="2" sm="2">-->
-<!--                            <v-btn icon large :color="user.isWatchLater ? 'yellow accent-3' : ''">-->
-<!--                                <v-icon>-->
-<!--                                    watch_later-->
-<!--                                </v-icon>-->
-<!--                            </v-btn>-->
-<!--                        </v-col>-->
-
                 </v-card-actions>
 
+                <v-fade-transition>
+                    <v-overlay
+                        v-if="moreAction"
+                        absolute
+                        color="grey darken-4"
+                    >
+                        <v-row justify="center">
+                            <v-col cols="12" md="4" sm="4">
+                                <v-btn icon large :color="user.isLiked ? 'primary' : ''">
+                                    <v-icon large>
+                                        {{ user.isLiked ? 'thumb_up' : 'thumb_up_off_alt' }}
+                                    </v-icon>
+                                </v-btn>
+                            </v-col>
+
+                            <v-col cols="12" md="4" sm="4">
+                                <v-btn icon large :color="user.isFollow ? 'pink darken-1' : ''">
+                                    <v-icon large>
+                                        {{ user.isFollow ? 'favorite' : 'favorite_border' }}
+                                    </v-icon>
+                                </v-btn>
+                            </v-col>
+
+                            <v-col cols="12" md="4" sm="4">
+                                <v-btn icon large :color="user.isWatchLater ? 'yellow accent-3' : ''">
+                                    <v-icon large>
+                                        watch_later
+                                    </v-icon>
+                                </v-btn>
+                            </v-col>
+                        </v-row>
+
+                        <v-row justify="center">
+                            <v-col cols="12" sm="6" md="6">
+                                <v-btn text to="/">
+                                    <v-icon>arrow_back</v-icon>
+                                    回到首页
+                                </v-btn>
+                            </v-col>
+                            <v-col cols="12" sm="6" md="6">
+                                <v-btn text @click="moreAction = false">
+                                    <v-icon>close</v-icon>
+                                    取消
+                                </v-btn>
+                            </v-col>
+                        </v-row>
+
+                    </v-overlay>
+                </v-fade-transition>
+
                 <v-card-text>
-                    <v-btn block outlined class="text-button">
+                    <v-btn block outlined class="text-button" @click="moreAction = true">
                         <v-icon>
                             read_more
                         </v-icon>
@@ -158,6 +184,7 @@
         <v-row justify="start" >
             <v-list three-line subheader width="50%" style="margin-bottom: 5%; margin-left: 12.5%; margin-top: 2.5%" shaped>
                 <v-list-item-group color="primary" v-model="selectItem">
+
                     <v-list-item v-for="(item, index) in discuss" :key="index" @contextmenu="showSelectMenu($event, index, item)" @click="function (){}">
                         <v-list-item-avatar size="5%">
                             <v-img :src="'https://q1.qlogo.cn/g?b=qq&nk=' + item.avatarId + '&s=640'"></v-img>
@@ -296,6 +323,7 @@ export default {
     },
     data() {
         return {
+            moreAction: false,
             discussEdit: false,
             selectItem: -1,
             getLastUpdate: getLastUpdate,
