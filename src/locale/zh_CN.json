@@ -2,9 +2,6 @@
     "packageVersion": "0.0.1",
     "language": "简体中文",
     "Complete": "100%",
-    "API": {
-
-    },
     "Text": {
         "Status": {
             "NotFound": {
@@ -48,14 +45,15 @@
         },
         "Home": {
             "title": "RealFax Community",
-            "Subtitle": "让世界更加美好",
+            "Subtitle": "学会分享，收获快乐。",
             "JoinRealFaxCommunity": "快速开始"
         },
         "About": {
             "title": "关于RealFax Community"
         },
         "EULA": {
-            "title": "RealFax Community最终用户协议"
+            "title": "RealFax Community 最终用户协议",
+            "subtitle": "RealFax EULA"
         },
         "Register": {
             "title": "注册一个RealFax Community账户"
@@ -64,8 +62,8 @@
             "title": "加入RealFax Community",
             "Login": "登录",
             "LoginTitle": "登录",
-            "LoginLableOption": "使用用户名或邮箱登录",
-            "LoginLableOption_1": "输入密码",
+            "LoginLabelOption": "使用用户名或邮箱登录",
+            "LoginLabelOption_1": "输入密码",
             "NoneAccount_1": "没有账户?创建一个",
             "NoneAccount_2": "RealFax",
             "NoneAccount_3": "账户",
@@ -76,7 +74,8 @@
             "alert_3": "请填写密码",
             "alert_4": "密码长度异常",
             "NeedCaptcha": "确认你不是自动程序",
-            "StopLogin": "停止继续登录"
+            "StopLogin": "停止继续登录",
+            "loginFatal": "登录失败"
         },
         "Verify": {
             "title": "确认你的RealFax Community资格"
@@ -104,6 +103,39 @@
             "Manage": {
                 "title": "这是我们之间的小秘密哦(/▽＼)"
             }
+        },
+        "Guide": {
+            "subtitle_1": "订阅话题",
+            "about": "关于",
+            "privacy": "隐私",
+            "copyright": "版权",
+            "eula": "政策与安全",
+            "defaultMenu": {
+                "home": "首页",
+                "search": "搜索",
+                "watch": "关注的话题"
+            },
+            "subMenu": {
+                "history": "历史记录",
+                "myTopic": "我的话题",
+                "likedTopic": "顶过的话题",
+                "watchLater": "稍后再看"
+            },
+            "bottomMenu": {
+                "feedback": "发送反馈",
+                "likedRealFax": "喜欢RealFax",
+                "serverStatus": "服务状态"
+            }
+        },
+        "topicGround": {
+            "subtitle_1": "位用户订阅了该话题, 更新于",
+            "now": "现在",
+            "secondAgo": "秒前",
+            "minuteAgo": "分钟前",
+            "hourAgo": "小时前",
+            "dayAgo": "天前",
+            "monthAgo": "月前",
+            "longtime": "很久了..."
         }
     }
 }

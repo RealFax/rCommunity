@@ -1,5 +1,5 @@
 
-const SwitchLanguage = (lang) => {
+/*const SwitchLanguage = (lang) => {
     if (this.$i18n.locale !== lang) {
         this.$i18n.locale = lang;
         localStorage.setItem('language', lang);
@@ -13,9 +13,8 @@ const SwitchLanguage = (lang) => {
         type: 'warning',
         message: this.$t('Text.Public.NoNeedToModifyLanguage')
     });
-    return;
 }
 
 export{
     SwitchLanguage
-}
+}*/

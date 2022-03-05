@@ -1,4 +1,4 @@
-import { defaultLanguage } from '../env'
+import { defaultLanguage } from '@/env'
 
 const languageTable = {
     'zh_CN': 'zhHans',  //简体中文

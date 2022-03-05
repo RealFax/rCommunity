@@ -1,0 +1,21 @@
+# !RFX::std->utf-8
+RFXVersion = "0.0.1"
+
+[package]
+PACKAGE_NAME = "org.realfax.community.alpha"
+LANGUAGE = "javascript"
+VERSION = "0.0.1"
+AUTHORIZATION_ID = 1000010
+CREATE_DATE = 2022-01-14T23:23:52+08:00
+DESCRIPTION = "community service"
+
+[GIT]
+GIT_ORIGIN = "https://github.com/RealFax/rCommunity"
+GIT_BRANCH = "master"
+
+[AUTHOR]
+AUTHOR_ID = 1
+AUTHOR_LIST = ["potato", "loryu"]
+
+[NOTICE]
+A = "what the fuck?"

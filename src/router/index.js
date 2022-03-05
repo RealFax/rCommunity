@@ -46,20 +46,20 @@ const routes = [
       title: 'Text.Verify.title'
     },
     component: () => import('../views/Verify.vue')
-  }, {
+  }, /**{
     path: '/search',
-    name: 'Search',
+    title: 'Search',
     meta: {
       title: 'Text.Search.title'
     },
     component: () => import('../views/Search.vue')
-  }, {
-    path: '/read/:readId',
-    name: 'Read',
-    meta: {
-      title: 'Text.Read.title'
-    },
-    component: () => import('../views/read/Read.vue'),
+  }, **/{
+    path: '/topic/:topicId',
+    name: 'Topic',
+    // meta: {
+    //   title: 'Text.Read.title'
+    // },
+    component: () => import('../views/topic/Ground.vue'),
     props: true
   }, {
     path: '/user/:userId',
